@@ -1,0 +1,52 @@
+# TestSuite
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**creator_id** | **int** |  | [optional] 
+**created_date** | **datetime** |  | [optional] 
+**last_modified_user_id** | **int** |  | [optional] 
+**last_modified_date** | **datetime** |  | [optional] 
+**display_name** | **str** |  | [optional] 
+**display_description** | **str** |  | [optional] 
+**id** | **int** |  | [optional] 
+**pid** | **int** |  | [optional] 
+**client_id** | **int** |  | [optional] 
+**project_id** | **int** |  | [optional] 
+**obj_order** | **int** |  | [optional] 
+**name** | **str** |  | [optional] 
+**test_data_set_id** | **int** |  | [optional] 
+**user_id** | **int** |  | [optional] 
+**test_bed_id** | **int** |  | [optional] 
+**project_test_type_id** | **int** |  | [optional] 
+**planned_start_date** | **datetime** |  | [optional] 
+**planned_end_date** | **datetime** |  | [optional] 
+**description** | **str** |  | [optional] 
+**release_id** | **int** |  | [optional] 
+**build_id** | **int** |  | [optional] 
+**test_cycle_id** | **int** |  | [optional] 
+**test_cycle** | [**TestCycle**](TestCycle.md) |  | [optional] 
+**deleted** | **bool** |  | [optional] [default to False]
+**type_name** | **str** |  | [optional] 
+**result_type** | **str** |  | [optional] 
+**object_type** | **int** |  | [optional] 
+**full_id** | **str** |  | [optional] 
+**parent_artifact_id** | **int** |  | [optional] 
+**parent_object_type** | **int** |  | [optional] 
+**result_name** | **str** |  | [optional] 
+**pid_with_prefix** | **str** |  | [optional] 
+**result_description** | **str** |  | [optional] 
+**short_result_type** | **str** |  | [optional] 
+**artifact_type** | **int** |  | [optional] 
+**status_id** | **int** |  | [optional] 
+**custom_field_value** | **str** |  | [optional] 
+**automation** | **bool** |  | [optional] [default to False]
+**long_id** | **int** |  | [optional] 
+**tosca** | **bool** |  | [optional] [default to False]
+**auto_test_case** | **bool** |  | [optional] [default to False]
+**approved** | **bool** |  | [optional] [default to False]
+**create_date_time_string** | **str** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
