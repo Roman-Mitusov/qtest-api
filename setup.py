@@ -13,8 +13,8 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "swagger-client"
-VERSION = "1.0.0"
+NAME = "qtest_swagger_client"
+VERSION = "0.0.2"
 # To install the library, run the following
 #
 # python setup.py install
@@ -34,13 +34,14 @@ setup(
     name=NAME,
     version=VERSION,
     description="qTest Manager API Version 11.0.0 - 2023.6",
-    author_email="",
-    url="",
+    author_email="roman.mitusov@gmail.com",
+    url="https://github.com/Roman-Mitusov/qtest-api",
     keywords=["Swagger", "qTest Manager API Version 11.0.0 - 2023.6"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
+    readme="README.md",
     long_description="""\
-    qTest Manager API Version 11.0.0 - 2023.6  # noqa: E501
+    qTest Manager API Version 11.0.0 - 2023.6
     """
 )
